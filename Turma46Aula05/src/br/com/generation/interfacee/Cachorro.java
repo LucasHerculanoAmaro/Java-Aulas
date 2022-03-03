@@ -1,0 +1,21 @@
+package br.com.generation.interfacee;
+
+public class Cachorro implements Animal{
+	
+	String nomeCachorro;
+
+	@Override
+	public  void somAnimal() {
+		System.out.println("Som do cachorro: auau");
+	}
+		
+	@Override
+	public void dormir() {
+		System.out.println("Cachorro dormindo...");
+	}
+	
+	@Override
+	public void comer() {
+		System.out.println("Cachorro comendo...");
+}
+}
